@@ -24,6 +24,12 @@
         "league/flysystem": "^1.0",
         "spatie/dropbox-api": "^1.1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BWLab/dropbox-api"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^6.0"
     },
